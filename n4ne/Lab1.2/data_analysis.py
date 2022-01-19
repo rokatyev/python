@@ -1,7 +1,7 @@
 from matplotlib import pyplot                       # Импорт модуля pyplot из библиотеки matplotlib
 from openpyxl import load_workbook                  # Импорт модуля load_workbook из модуля openpyxl
 
-wb = load_workbook('data_analysis_lab.xlsx')        # Открываем таблицу и создаём ссылающуюся на не переменную
+wb = load_workbook('data_analysis_lab.xlsx')        # Открываем таблицу и создаём ссылающуюся на неё переменную
 sheet = wb['Data']                                  # Создаём переменную ссылающуюся на лист "Data"
 
 def getvalue(x):                                    # Функция возвращает содержимое "x"
